@@ -1,18 +1,1 @@
-(function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? factory() :
-  typeof define === 'function' && define.amd ? define(factory) :
-  (factory());
-}(this, function () { 'use strict';
-
-  var divide = function divide(x, y) {
-    return x / y;
-  };
-
-  var subtract = function subtract(x, y) {
-    return x - y;
-  };
-
-  console.log(divide(4, 2));
-  console.log(subtract(4, 2));
-
-}));
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n():"function"==typeof define&&define.amd?define(n):n()}(this,function(){"use strict";var e=function(e,n){return e/n},n=function(e,n){return e-n};console.log(e(4,2)),console.log(n(4,2))});
