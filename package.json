@@ -1,0 +1,17 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "ES6 JS boilerplate with Babel and Rollup",
+  "scripts": {
+    "build": "rollup -c ./rollup.js -o ./dist/build.js ./src/main.js",
+    "test": ""
+  },
+  "author": "me@skwai.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "rollup": "^0.26.3",
+    "rollup-plugin-babel": "^2.4.0"
+  }
+}
